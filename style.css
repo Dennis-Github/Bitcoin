@@ -1,0 +1,170 @@
+
+* {
+  margin: 0px;  /*reset standaard browser waarden*/
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+body{ 
+	font-size: 1em;
+	color: #ddd;
+	font-family: arial, verdana, sans-serif;
+ }
+
+
+/* start opmaak header met menu -> */
+header {
+	background-image: url(../images/achtergrond.gif);
+/*	background-size: 100% 100px;*/
+
+}
+
+
+header nav ul li {
+	display: inline-block;
+	color:  white; 
+}
+
+header nav ul li.active{
+	background-color: #8b13148f;
+}
+
+header[class*="col-"] {
+	background-color: #d11d1b;
+	padding: 10px 15px;
+	/*height:	100px;*/
+}
+
+header div.headerLogo {
+	height: 75px;
+}
+
+
+main ol {
+	padding: 10px 30px;
+	background-color: grey;
+}
+main ul{
+	margin: 10px 0 15px 0;
+}
+
+.topnav .icon {
+  display: none;
+  color: white;
+}
+
+.fa {
+	margin-top: 10px;
+}
+
+li a:hover, footer a:hover {
+  /*background-color: #e62220;*/
+  color: #8d8c8c;
+}
+a{
+	color: white;
+	text-decoration: none;
+	font-size: 1em;
+
+}
+/* <- eind opmaak header met menu */
+
+main {
+	background-color: grey;
+}
+
+h1 {
+	padding-left: 15px;
+}
+h3{
+	margin-top: 10px;
+}
+
+img {
+	width: 100%;
+}
+img.logo {
+	width: 75%;
+}
+figure.logo, figure.koers{
+	float: left;
+	margin-top:	5%;
+}
+figure.munt{
+	width: 300px;
+	margin: 10px;
+	float: right;
+}
+
+/* start opmaak van de tabel - kopen.html -> */
+
+table, th, td {
+	border:1px solid #700000;
+	border-collapse: collapse;
+	padding: 5px;
+}
+table{
+	margin: 0 auto 10px auto;
+}
+th{
+	background-color: #b21b1c;
+	text-align: left;
+
+}
+
+caption h3{
+	padding: 10px 15px;
+
+}
+
+
+/* <- eind opmaak van de tabel - kopen.html */
+
+/* start footer opmaak -> */
+
+footer {
+	background-color: #8b1314;
+	height: 100%;
+	line-height: 22px;
+}
+
+footer div div {
+	height: 250px;
+}
+
+footer h3, main h3 {
+	padding-bottom: 7px;
+}
+footer a {
+	display: block;
+}
+footer a#mail{
+	display: inline;
+}
+
+footer div {
+	overflow: auto;
+}
+/* <- eind footer opmaak */
+
+/* contactpagina formulier */
+
+label {
+	display: inline-block;
+	padding: 5px 15px;	
+	width: 150px;
+}
+fieldset {
+	border: 1px solid black;
+	background-color: #8d8c8c;
+	padding: 15px;
+}
+form input[type="submit"]{
+	margin-top: 10px;
+	padding: 0 10px;
+}
+legend {
+	padding: 0 10px;
+}
+
